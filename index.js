@@ -2,69 +2,50 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-// allow cross origin requests
-const cors = require('cors');
-app.use(cors());
+// receitas is an array that should be imported from receitas.json file
+// const receitas = require('./receitas.json');
 
-process.env.AWS_ACCESS_KEY_ID = 'AKIA2DIFYKJDZGQBI46X';
-process.env.AWS_SECRET_ACCESS_KEY = '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';
+const receitas = require('./receitas.json').map(receita => ({
+  ...receita,
+  id: parseInt(receita.id)
+}));
 
-app.get('/health', (req, res) => {
-  res.send('Server is up and running');
-});
+// GraphQL
+const { buildSchema } = require("graphql");
+const { createHandler } = require('graphql-http/lib/use/express');
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+const schema = buildSchema(`
+  type Receita {
+    id: ID
+    nome: String
+    descricao: String
+    tempo: Int
+  }
+  
+  type Query {
+    receita(id: ID!): Receita
+    receitas: [Receita]
+  }
+`);
 
+const resolvers = {
+  receita({ id }) {
+    return receitas.find(item => item.id === Number(id));
+  },
+  receitas() {
+    console.log("Query for receitas called");
+    return receitas;
+  },
+};
 
-const AWS = require('aws-sdk');
-AWS.config.update({ region: 'us-east-1' });
+app.use(
+  "/graphql",
+  createHandler({
+    schema: schema,
+    rootValue: resolvers,
+    graphiql: true,
+  })
 
-// setup aws credentials
-const dynamodb = new AWS.DynamoDB.DocumentClient();
-const tableName = 'ftv-matches';
+);
 
-
-
-app.get('/receitas', (req, res) => {
-  const receitas = require('./receitas.json');
-  res.json(receitas);
-});
-
-
-
-// get request to get all users
-app.get('/users', (req, res) => {
-  const params = {
-    TableName: tableName,
-  };
-
-  dynamodb.scan(params, (err, data) => {
-    if (err) {
-      console.log(err);
-      res.status(500).json({ error: 'Could not load items: ' + err.message });
-    } else {
-      res.json(data.Items);
-    }
-  });
-});
-
-// get request to get a single user
-app.get('/users/:id', (req, res) => {
-  const params = {
-    TableName: tableName,
-    Key: {
-      id: req.params.id,
-    },
-  };
-
-  dynamodb.get(params, (err, data) => {
-    if (err) {
-      console.log(err);
-      res.status(500).json({ error: 'Could not load items: ' + err.message });
-    } else {
-      res.json(data.Item);
-    }
-  });
-});
+app.listen(3000);

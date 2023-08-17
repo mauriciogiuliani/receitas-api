@@ -1,52 +1,183 @@
 [
-    {
-        "id": "1",
-        "nome": "Espaguete à Carbonara",
-        "descricao": "Uma deliciosa massa italiana com bacon, queijo e ovos.",
-        "categorias": ["Massas", "Prato Principal"],
-        "imagem": "link_para_imagem",
-        "ingredientes": [
-          {
-            "nome": "Espaguete",
-            "quantidade": 300,
-            "unidade": "g"
-          },
-          {
-            "nome": "Bacon ou Pancetta",
-            "quantidade": 150,
-            "unidade": "g"
-          },
-          {
-            "nome": "Ovos",
-            "quantidade": 3,
-            "unidade": ""
-          },
-          {
-            "nome": "Queijo Pecorino Romano",
-            "quantidade": 100,
-            "unidade": "g"
-          },
-          {
-            "nome": "Pimenta-do-reino",
-            "quantidade": 1,
-            "unidade": "pitada"
-          },
-          {
-            "nome": "Sal",
-            "quantidade": 1,
-            "unidade": "pitada"
-          }
-        ],
-        "preparo": [
-          "Leve uma panela grande de água para ferver. Adicione uma pitada generosa de sal à água fervente.",
-          "Enquanto a água está fervendo, aqueça um pouco de azeite de oliva em uma frigideira grande em fogo médio. Adicione os cubos de bacon ou pancetta e frite até que estejam dourados e crocantes. Retire a frigideira do fogo e reserve.",
-          "Em uma tigela, bata os ovos com o queijo Pecorino Romano ralado. Tempere com pimenta-do-reino moída na hora. Reserve.",
-          "Cozinhe o espaguete na água fervente de acordo com as instruções da embalagem até que fique al dente. Lembre-se de reservar cerca de 1 xícara da água do cozimento antes de escorrer a massa.",
-          "Escorra o espaguete e coloque-o na frigideira com o bacon ou pancetta frito. Misture bem para que a massa fique revestida com a gordura do bacon.",
-          "Retire a frigideira do fogo e adicione a mistura de ovos e queijo à massa, mexendo rapidamente para que os ovos não cozinhem demais e formem grumos.",
-          "Se a massa estiver muito seca, adicione um pouco da água do cozimento reservada, aos poucos, até obter a consistência desejada.",
-          "Sirva imediatamente, polvilhando um pouco mais de queijo Pecorino Romano ralado e pimenta-do-reino por cima."
-        ],
-        "tempo": 30
+  {
+    "id": "1",
+    "nome": "Espaguete à Carbonara",
+    "descricao": "Uma deliciosa massa italiana com bacon, queijo e ovos.",
+    "categorias": [
+      "Massas",
+      "Prato Principal"
+    ],
+    "imagem": "link_para_imagem",
+    "ingredientes": [
+      {
+        "nome": "Espaguete",
+        "quantidade": "300",
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Bacon ou Pancetta",
+        "quantidade": "150",
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Ovos",
+        "quantidade": "3",
+        "unidade": "",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Queijo Pecorino Romano ralado",
+        "quantidade": "100",
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Pimenta-do-reino",
+        "quantidade": "1",
+        "unidade": "pitada",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Sal",
+        "quantidade": "1",
+        "unidade": "pitada",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Azeite de oliva",
+        "quantidade": "1",
+        "unidade": "fio",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Água",
+        "quantidade": null,
+        "unidade": "para cozinhar",
+        "preposicao": "de"
       }
+    ],
+    "preparo": [
+      "Leve uma panela grande de água para ferver. Adicione uma pitada generosa de sal à água fervente.",
+      "Enquanto a água está fervendo, aqueça um pouco de azeite de oliva em uma frigideira grande em fogo médio. Adicione os cubos de bacon ou pancetta e frite até que estejam dourados e crocantes. Retire a frigideira do fogo e reserve.",
+      "Em uma tigela, bata os ovos com o queijo Pecorino Romano ralado. Tempere com pimenta-do-reino moída na hora. Reserve.",
+      "Cozinhe o espaguete na água fervente de acordo com as instruções da embalagem até que fique al dente. Lembre-se de reservar cerca de 1 xícara da água do cozimento antes de escorrer a massa.",
+      "Escorra o espaguete e coloque-o na frigideira com o bacon ou pancetta frito. Misture bem para que a massa fique revestida com a gordura do bacon.",
+      "Retire a frigideira do fogo e adicione a mistura de ovos e queijo à massa, mexendo rapidamente para que os ovos não cozinhem demais e formem grumos.",
+      "Se a massa estiver muito seca, adicione um pouco da água do cozimento reservada, aos poucos, até obter a consistência desejada.",
+      "Sirva imediatamente, polvilhando um pouco mais de queijo Pecorino Romano ralado e pimenta-do-reino por cima."
+    ],
+    "tempo": 30,
+    "dica": "Sirva acompanhado de um bom vinho tinto italiano.",
+    "harmonizacao": [
+      "Vinho Tinto Leve: Escolha um vinho tinto mais leve, como um Chianti ou um Pinot Noir. Eles complementam bem os sabores da Carbonara.",
+      "Vinho Branco Seco: Opte por um vinho branco seco e leve, como um Pinot Grigio ou um Sauvignon Blanc. A acidez equilibra a riqueza da Carbonara.",
+      "Vinho Rosé: Experimente um vinho rosé seco e frutado, como um Rosé Provençal, para contrastar com a riqueza do prato.",
+      "Vinho Espumante: Um vinho espumante brut, como um Prosecco ou um Cava, pode trazer leveza e efervescência à refeição."
+    ]
+  },
+  {
+    "id": "2",
+    "nome": "Risoto de Cogumelos",
+    "descricao": "Um delicioso risoto cremoso com cogumelos frescos e queijo parmesão.",
+    "categorias": ["Arroz", "Prato Principal"],
+    "imagem": "link_para_imagem",
+    "ingredientes": [
+      {
+        "nome": "Arroz arbóreo",
+        "quantidade": "300",
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Cogumelos frescos (ex: champignon, shiitake)",
+        "quantidade": "200",
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Cebola",
+        "quantidade": "1",
+        "unidade": "",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Alho",
+        "quantidade": "2",
+        "unidade": "dentes",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Caldo de legumes",
+        "quantidade": "1",
+        "unidade": "litro",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Queijo parmesão ralado",
+        "quantidade": "100",
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Vinho branco seco",
+        "quantidade": "150",
+        "unidade": "ml",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Manteiga",
+        "quantidade": "2",
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Azeite de oliva",
+        "quantidade": "2",
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Sal",
+        "quantidade": "1",
+        "unidade": "pitada",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Pimenta-do-reino",
+        "quantidade": "1",
+        "unidade": "pitada",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Salsinha fresca picada",
+        "quantidade": "2",
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      }
+    ],
+    "preparo": [
+      "Em uma panela grande, aqueça o caldo de legumes e mantenha-o aquecido em fogo baixo.",
+      "Em outra panela, aqueça o azeite de oliva e uma colher de manteiga.",
+      "Adicione a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho picado e os cogumelos fatiados. Refogue até que os cogumelos estejam dourados e a maior parte do líquido tenha evaporado.",
+      "Adicione o arroz arbóreo à panela e mexa para que ele fique bem envolvido no azeite e na manteiga.",
+      "Despeje o vinho branco na panela e mexa até que o líquido seja absorvido pelo arroz.",
+      "Comece a adicionar o caldo de legumes quente, uma concha por vez, mexendo sempre e esperando que o líquido seja absorvido antes de adicionar mais.",
+      "Continue adicionando o caldo e mexendo até que o arroz esteja cozido, mas ainda al dente e cremoso.",
+      "Desligue o fogo e adicione o queijo parmesão ralado e a colher de manteiga restante. Mexa bem até que o queijo derreta e o risoto fique ainda mais cremoso.",
+      "Tempere com sal e pimenta-do-reino a gosto.",
+      "Finalize com salsinha fresca picada e um fio de azeite de oliva antes de servir.",
+      "Sirva imediatamente, ainda quente, e aproveite!"
+    ],
+    "tempo": 40,
+    "dica": "Finalize com um fio de azeite e salsinha picada antes de servir.",
+    "harmonizacao": [
+      "Vinho Branco Encorpado: Escolha um vinho branco encorpado, como um Chardonnay com passagem por barrica.",
+      "Vinho Tinto Leve: Opte por um vinho tinto leve, como um Pinot Noir, para contrastar com a cremosidade do risoto.",
+      "Vinho Rosé: Um vinho rosé frutado e fresco pode ser uma opção refrescante para acompanhar o prato.",
+      "Vinho Espumante: Experimente um vinho espumante brut, como um Brut Nature, para trazer efervescência e harmonizar com a textura cremosa do risoto."
+    ]
+  }
 ]
