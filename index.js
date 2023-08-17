@@ -2,6 +2,10 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+// allow cross origin requests
+const cors = require('cors');
+app.use(cors());
+
 process.env.AWS_ACCESS_KEY_ID = 'AKIA2DIFYKJDZGQBI46X';
 process.env.AWS_SECRET_ACCESS_KEY = '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';
 
