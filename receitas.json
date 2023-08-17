@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "nome": "Espaguete à Carbonara",
+        "descricao": "Uma deliciosa massa italiana com bacon, queijo e ovos.",
+        "categorias": ["Massas", "Prato Principal"],
+        "imagem": "link_para_imagem",
+        "ingredientes": [
+          {
+            "nome": "Espaguete",
+            "quantidade": 300,
+            "unidade": "g"
+          },
+          {
+            "nome": "Bacon ou Pancetta",
+            "quantidade": 150,
+            "unidade": "g"
+          },
+          {
+            "nome": "Ovos",
+            "quantidade": 3,
+            "unidade": ""
+          },
+          {
+            "nome": "Queijo Pecorino Romano",
+            "quantidade": 100,
+            "unidade": "g"
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": 1,
+            "unidade": "pitada"
+          },
+          {
+            "nome": "Sal",
+            "quantidade": 1,
+            "unidade": "pitada"
+          }
+        ],
+        "preparo": [
+          "Leve uma panela grande de água para ferver. Adicione uma pitada generosa de sal à água fervente.",
+          "Enquanto a água está fervendo, aqueça um pouco de azeite de oliva em uma frigideira grande em fogo médio. Adicione os cubos de bacon ou pancetta e frite até que estejam dourados e crocantes. Retire a frigideira do fogo e reserve.",
+          "Em uma tigela, bata os ovos com o queijo Pecorino Romano ralado. Tempere com pimenta-do-reino moída na hora. Reserve.",
+          "Cozinhe o espaguete na água fervente de acordo com as instruções da embalagem até que fique al dente. Lembre-se de reservar cerca de 1 xícara da água do cozimento antes de escorrer a massa.",
+          "Escorra o espaguete e coloque-o na frigideira com o bacon ou pancetta frito. Misture bem para que a massa fique revestida com a gordura do bacon.",
+          "Retire a frigideira do fogo e adicione a mistura de ovos e queijo à massa, mexendo rapidamente para que os ovos não cozinhem demais e formem grumos.",
+          "Se a massa estiver muito seca, adicione um pouco da água do cozimento reservada, aos poucos, até obter a consistência desejada.",
+          "Sirva imediatamente, polvilhando um pouco mais de queijo Pecorino Romano ralado e pimenta-do-reino por cima."
+        ],
+        "tempo": 30
+      }
+]

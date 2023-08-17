@@ -1,0 +1,1 @@
+// get request to get all receitas from the receitas.json file

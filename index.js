@@ -21,6 +21,15 @@ AWS.config.update({ region: 'us-east-1' });
 const dynamodb = new AWS.DynamoDB.DocumentClient();
 const tableName = 'ftv-matches';
 
+
+
+app.get('/receitas', (req, res) => {
+  const receitas = require('./receitas.json');
+  res.json(receitas);
+});
+
+
+
 // get request to get all users
 app.get('/users', (req, res) => {
   const params = {
