@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "espaguete-a-carbonara",
     "nome": "Espaguete à Carbonara",
     "descricao": "Uma deliciosa massa italiana com bacon, queijo e ovos.",
     "categorias": [
@@ -78,7 +78,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": "risoto-de-cogumelos",
     "nome": "Risoto de Cogumelos",
     "descricao": "Um delicioso risoto cremoso com cogumelos frescos e queijo parmesão.",
     "categorias": ["Arroz", "Prato Principal"],
