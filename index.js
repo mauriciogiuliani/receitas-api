@@ -41,6 +41,7 @@ const schema = buildSchema(`
 
   type Query {
     receita(id: ID!): Receita
+    receitaByNome(nome: String!): Receita
     receitas: [Receita]
   }
 `);
