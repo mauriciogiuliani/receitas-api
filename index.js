@@ -21,6 +21,7 @@ const schema = buildSchema(`
   type Receita {
     id: ID
     nome: String
+    titulo: String
     descricao: String
     categorias: [String]
     imagem: String
