@@ -54,6 +54,11 @@ const resolvers = {
     console.log("Query for receitas called");
     return receitas;
   },
+
+  receitasByNome({ nome }) {
+    console.log("Query for receitasByNome called");
+    return receitas.find(item => item.nome === nome);
+  }
 };
 
 app.use(
