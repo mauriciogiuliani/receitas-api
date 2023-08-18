@@ -9,8 +9,7 @@ app.use(cors());
 // const receitas = require('./receitas.json');
 
 const receitas = require('./receitas.json').map(receita => ({
-  ...receita,
-  id: parseInt(receita.id)
+  ...receita
 }));
 
 // GraphQL
@@ -48,7 +47,7 @@ const schema = buildSchema(`
 
 const resolvers = {
   receita({ id }) {
-    return receitas.find(item => item.id === Number(id));
+    return receitas.find(item => item.id === id);
   },
   receitas() {
     console.log("Query for receitas called");
