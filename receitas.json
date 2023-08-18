@@ -7,7 +7,7 @@
       "Massas",
       "Prato Principal"
     ],
-    "imagem": "link_para_imagem",
+    "imagem": "espaguete-a-carbonara.jpg",
     "ingredientes": [
       {
         "nome": "Espaguete",
@@ -82,7 +82,7 @@
     "titulo": "Risoto de Cogumelos",
     "descricao": "Um delicioso risoto cremoso com cogumelos frescos e queijo parmesão.",
     "categorias": ["Arroz", "Prato Principal"],
-    "imagem": "link_para_imagem",
+    "imagem": "risoto-de-cogumelos.jpg",
     "ingredientes": [
       {
         "nome": "Arroz arbóreo",
