@@ -345,5 +345,150 @@
         "descricao": "Se preferir vinho branco, um Chardonnay com boa estrutura é uma escolha adequada."
       }
     ]
-  }
+  },
+  {
+  "id": "yakisoba-carne-frango",
+  "titulo": "Yakisoba com Carne e Frango",
+  "descricao": "Um prato japonês delicioso e cheio de sabores, com macarrão, legumes, carne e frango.",
+  "categorias": [
+    "Carnes",
+    "Aves",
+    "Prato Principal",
+    "Cozinha Japonesa"
+  ],
+  "imagem": "yakisoba-carne-frango.jpg",
+  "ingredientes": [
+    {
+      "nome": "Macarrão para yakisoba",
+      "quantidade": 200,
+      "unidade": "g",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Peito de frango",
+      "quantidade": 150,
+      "unidade": "g",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Carne bovina (contrafilé, alcatra ou filé-mignon)",
+      "quantidade": 150,
+      "unidade": "g",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Cenoura",
+      "quantidade": 1,
+      "unidade": "",
+      "preposicao": ""
+    },
+    {
+      "nome": "Pimentão verde",
+      "quantidade": 1,
+      "unidade": "",
+      "preposicao": ""
+    },
+    {
+      "nome": "Pimentão vermelho",
+      "quantidade": 1,
+      "unidade": "",
+      "preposicao": ""
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": 1,
+      "unidade": "",
+      "preposicao": ""
+    },
+    {
+      "nome": "Brócolis",
+      "quantidade": 1,
+      "unidade": "maço",
+      "preposicao": ""
+    },
+    {
+      "nome": "Óleo de gergelim",
+      "quantidade": 2,
+      "unidade": "colheres de chá",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Molho de soja (shoyu)",
+      "quantidade": 3,
+      "unidade": "colheres de sopa",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Molho hoisin",
+      "quantidade": 2,
+      "unidade": "colheres de sopa",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Amido de milho",
+      "quantidade": 1,
+      "unidade": "colher de sopa",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Água",
+      "quantidade": 1,
+      "unidade": "xícara",
+      "preposicao": ""
+    },
+    {
+      "nome": "Alho picado",
+      "quantidade": 3,
+      "unidade": "dentes",
+      "preposicao": ""
+    },
+    {
+      "nome": "Gengibre picado",
+      "quantidade": 1,
+      "unidade": "colher de chá",
+      "preposicao": "de"
+    },
+    {
+      "nome": "Sal e pimenta",
+      "quantidade": "a gosto",
+      "unidade": "",
+      "preposicao": ""
+    }
+  ],
+  "porcao": {
+    "tipo": "porções",
+    "quantidade": 4
+  },
+  "preparo": [
+    "Cozinhe o macarrão de acordo com as instruções da embalagem. Escorra e reserve.",
+    "Em uma tigela, misture o molho de soja, o molho hoisin, o amido de milho e a água até obter um molho homogêneo. Reserve.",
+    "Aqueça uma colher de chá de óleo de gergelim em uma frigideira grande ou wok em fogo alto.",
+    "Adicione o frango cortado em tiras finas e a carne bovina cortada em tiras. Cozinhe até dourar. Tempere com sal e pimenta a gosto. Retire as carnes da frigideira e reserve.",
+    "Na mesma frigideira, adicione outra colher de chá de óleo de gergelim.",
+    "Refogue o alho picado e o gengibre picado até perfumar.",
+    "Adicione a cebola cortada em pedaços grandes e refogue até ficar macia.",
+    "Acrescente os pimentões e a cenoura cortados em tiras e o brócolis. Cozinhe por alguns minutos até que os legumes estejam levemente cozidos, mas ainda crocantes.",
+    "Retorne as carnes à frigideira e misture bem com os legumes.",
+    "Despeje o molho preparado sobre os ingredientes na frigideira. Cozinhe, mexendo constantemente, até que o molho engrosse e envolva todos os ingredientes.",
+    "Adicione o macarrão cozido à frigideira e misture para que fique bem incorporado aos outros ingredientes e envolto no molho.",
+    "Cozinhe por mais alguns minutos até que o macarrão esteja aquecido.",
+    "Prove e ajuste o tempero com sal e pimenta, se necessário.",
+    "Sirva o yakisoba com carne e frango quente.",
+    "Você pode opcionalmente polvilhar gergelim torrado por cima antes de servir."
+  ],
+  "tempo": 45,
+  "dica": "Experimente variar os tipos de carne e adicionar camarões para um toque ainda mais rico.",
+  "harmonizacao": [
+    {
+      "categoria": "Cerveja",
+      "subcategoria": "Lager",
+      "descricao": "Uma cerveja Lager gelada complementa bem os sabores do yakisoba."
+    },
+    {
+      "categoria": "Chá Verde",
+      "subcategoria": "",
+      "descricao": "Para uma opção não alcoólica, um chá verde quente ou gelado é uma ótima escolha."
+    }
+  ]
+}
 ]
