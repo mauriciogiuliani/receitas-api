@@ -27,8 +27,9 @@ const schema = buildSchema(`
     ingredientes: [Ingrediente]
     preparo: [String]
     dicas: String
-    harmonizacao: [String]
+    harmonizacao: Harmonizacao
     tempo: Int
+    porcao: Porcao
   }
 
   type Ingrediente {
