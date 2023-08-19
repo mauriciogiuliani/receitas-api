@@ -38,6 +38,18 @@ const schema = buildSchema(`
     preposicao: String
   }
 
+  type Harmonizacao {
+    categoria: String
+    subcategoria: String
+    descricao: String
+  }
+
+  type Porcao {
+    tipo: String 
+    quantidade: Int
+  }
+
+
   type Query {
     receita(id: ID!): Receita
     receitaByNome(nome: String!): Receita
