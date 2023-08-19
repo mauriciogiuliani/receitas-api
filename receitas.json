@@ -347,249 +347,242 @@
     ]
   },
   {
-  "id": "yakisoba-carne-frango",
-  "titulo": "Yakisoba com Carne e Frango",
-  "descricao": "Um prato japonês delicioso e cheio de sabores, com macarrão, legumes, carne e frango.",
-  "categorias": [
-    "Carnes",
-    "Aves",
-    "Prato Principal",
-    "Cozinha Japonesa"
-  ],
-  "imagem": "yakisoba-carne-frango.jpg",
-  "ingredientes": [
-    {
-      "nome": "Macarrão para yakisoba",
-      "quantidade": 200,
-      "unidade": "g",
-      "preposicao": "de"
+    "id": "yakisoba-carne-frango",
+    "titulo": "Yakisoba com Carne e Frango",
+    "descricao": "Um prato japonês delicioso e cheio de sabores, com macarrão, legumes, carne e frango.",
+    "categorias": [
+      "Carnes",
+      "Aves",
+      "Prato Principal",
+      "Cozinha Japonesa"
+    ],
+    "imagem": "yakisoba-carne-frango.jpg",
+    "ingredientes": [
+      {
+        "nome": "Macarrão para yakisoba",
+        "quantidade": 200,
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Peito de frango",
+        "quantidade": 150,
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Carne bovina (contrafilé, alcatra ou filé-mignon)",
+        "quantidade": 150,
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Cenoura",
+        "quantidade": 1,
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Pimentão verde",
+        "quantidade": 1,
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Pimentão vermelho",
+        "quantidade": 1,
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Cebola",
+        "quantidade": 1,
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Brócolis",
+        "quantidade": 1,
+        "unidade": "maço",
+        "preposicao": ""
+      },
+      {
+        "nome": "Óleo de gergelim",
+        "quantidade": 2,
+        "unidade": "colheres de chá",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Molho de soja (shoyu)",
+        "quantidade": 3,
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Molho hoisin",
+        "quantidade": 2,
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Amido de milho",
+        "quantidade": 1,
+        "unidade": "colher de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Água",
+        "quantidade": 1,
+        "unidade": "xícara",
+        "preposicao": ""
+      },
+      {
+        "nome": "Alho picado",
+        "quantidade": 3,
+        "unidade": "dentes",
+        "preposicao": ""
+      },
+      {
+        "nome": "Gengibre picado",
+        "quantidade": 1,
+        "unidade": "colher de chá",
+        "preposicao": "de"
+      }
+    ],
+    "porcao": {
+      "tipo": "porções",
+      "quantidade": 4
     },
-    {
-      "nome": "Peito de frango",
-      "quantidade": 150,
-      "unidade": "g",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Carne bovina (contrafilé, alcatra ou filé-mignon)",
-      "quantidade": 150,
-      "unidade": "g",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Cenoura",
-      "quantidade": 1,
-      "unidade": "",
-      "preposicao": ""
-    },
-    {
-      "nome": "Pimentão verde",
-      "quantidade": 1,
-      "unidade": "",
-      "preposicao": ""
-    },
-    {
-      "nome": "Pimentão vermelho",
-      "quantidade": 1,
-      "unidade": "",
-      "preposicao": ""
-    },
-    {
-      "nome": "Cebola",
-      "quantidade": 1,
-      "unidade": "",
-      "preposicao": ""
-    },
-    {
-      "nome": "Brócolis",
-      "quantidade": 1,
-      "unidade": "maço",
-      "preposicao": ""
-    },
-    {
-      "nome": "Óleo de gergelim",
-      "quantidade": 2,
-      "unidade": "colheres de chá",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Molho de soja (shoyu)",
-      "quantidade": 3,
-      "unidade": "colheres de sopa",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Molho hoisin",
-      "quantidade": 2,
-      "unidade": "colheres de sopa",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Amido de milho",
-      "quantidade": 1,
-      "unidade": "colher de sopa",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Água",
-      "quantidade": 1,
-      "unidade": "xícara",
-      "preposicao": ""
-    },
-    {
-      "nome": "Alho picado",
-      "quantidade": 3,
-      "unidade": "dentes",
-      "preposicao": ""
-    },
-    {
-      "nome": "Gengibre picado",
-      "quantidade": 1,
-      "unidade": "colher de chá",
-      "preposicao": "de"
-    }
-  ],
-  "porcao": {
-    "tipo": "porções",
-    "quantidade": 4
+    "preparo": [
+      "Cozinhe o macarrão de acordo com as instruções da embalagem. Escorra e reserve.",
+      "Em uma tigela, misture o molho de soja, o molho hoisin, o amido de milho e a água até obter um molho homogêneo. Reserve.",
+      "Aqueça uma colher de chá de óleo de gergelim em uma frigideira grande ou wok em fogo alto.",
+      "Adicione o frango cortado em tiras finas e a carne bovina cortada em tiras. Cozinhe até dourar. Tempere com sal e pimenta a gosto. Retire as carnes da frigideira e reserve.",
+      "Na mesma frigideira, adicione outra colher de chá de óleo de gergelim.",
+      "Refogue o alho picado e o gengibre picado até perfumar.",
+      "Adicione a cebola cortada em pedaços grandes e refogue até ficar macia.",
+      "Acrescente os pimentões e a cenoura cortados em tiras e o brócolis. Cozinhe por alguns minutos até que os legumes estejam levemente cozidos, mas ainda crocantes.",
+      "Retorne as carnes à frigideira e misture bem com os legumes.",
+      "Despeje o molho preparado sobre os ingredientes na frigideira. Cozinhe, mexendo constantemente, até que o molho engrosse e envolva todos os ingredientes.",
+      "Adicione o macarrão cozido à frigideira e misture para que fique bem incorporado aos outros ingredientes e envolto no molho.",
+      "Cozinhe por mais alguns minutos até que o macarrão esteja aquecido.",
+      "Prove e ajuste o tempero com sal e pimenta, se necessário.",
+      "Sirva o yakisoba com carne e frango quente.",
+      "Você pode opcionalmente polvilhar gergelim torrado por cima antes de servir."
+    ],
+    "tempo": 45,
+    "dica": "Experimente variar os tipos de carne e adicionar camarões para um toque ainda mais rico.",
+    "harmonizacao": [
+      {
+        "categoria": "Cerveja",
+        "subcategoria": "Lager",
+        "descricao": "Uma cerveja Lager gelada complementa bem os sabores do yakisoba."
+      },
+      {
+        "categoria": "Chá Verde",
+        "subcategoria": "",
+        "descricao": "Para uma opção não alcoólica, um chá verde quente ou gelado é uma ótima escolha."
+      }
+    ]
   },
-  "preparo": [
-    "Cozinhe o macarrão de acordo com as instruções da embalagem. Escorra e reserve.",
-    "Em uma tigela, misture o molho de soja, o molho hoisin, o amido de milho e a água até obter um molho homogêneo. Reserve.",
-    "Aqueça uma colher de chá de óleo de gergelim em uma frigideira grande ou wok em fogo alto.",
-    "Adicione o frango cortado em tiras finas e a carne bovina cortada em tiras. Cozinhe até dourar. Tempere com sal e pimenta a gosto. Retire as carnes da frigideira e reserve.",
-    "Na mesma frigideira, adicione outra colher de chá de óleo de gergelim.",
-    "Refogue o alho picado e o gengibre picado até perfumar.",
-    "Adicione a cebola cortada em pedaços grandes e refogue até ficar macia.",
-    "Acrescente os pimentões e a cenoura cortados em tiras e o brócolis. Cozinhe por alguns minutos até que os legumes estejam levemente cozidos, mas ainda crocantes.",
-    "Retorne as carnes à frigideira e misture bem com os legumes.",
-    "Despeje o molho preparado sobre os ingredientes na frigideira. Cozinhe, mexendo constantemente, até que o molho engrosse e envolva todos os ingredientes.",
-    "Adicione o macarrão cozido à frigideira e misture para que fique bem incorporado aos outros ingredientes e envolto no molho.",
-    "Cozinhe por mais alguns minutos até que o macarrão esteja aquecido.",
-    "Prove e ajuste o tempero com sal e pimenta, se necessário.",
-    "Sirva o yakisoba com carne e frango quente.",
-    "Você pode opcionalmente polvilhar gergelim torrado por cima antes de servir."
-  ],
-  "tempo": 45,
-  "dica": "Experimente variar os tipos de carne e adicionar camarões para um toque ainda mais rico.",
-  "harmonizacao": [
-    {
-      "categoria": "Cerveja",
-      "subcategoria": "Lager",
-      "descricao": "Uma cerveja Lager gelada complementa bem os sabores do yakisoba."
-    },
-    {
-      "categoria": "Chá Verde",
-      "subcategoria": "",
-      "descricao": "Para uma opção não alcoólica, um chá verde quente ou gelado é uma ótima escolha."
-    }
-  ]
-},
   {
-  "id": "file-wellington",
-  "titulo": "Filé Wellington",
-  "descricao": "Uma deliciosa preparação clássica com filé mignon envolto em massa folhada e recheado com cogumelos e ervas.",
-  "categorias": [
-    "Carnes",
-    "Prato Principal"
-  ],
-  "imagem": "file-wellington.jpg",
-  "ingredientes": [
-    {
-      "nome": "Filé mignon",
-      "quantidade": 500,
-      "unidade": "g",
-      "preposicao": "de"
+    "id": "file-wellington",
+    "titulo": "Filé Wellington",
+    "descricao": "Uma deliciosa preparação clássica com filé mignon envolto em massa folhada e recheado com cogumelos e ervas.",
+    "categorias": [
+      "Carnes",
+      "Prato Principal"
+    ],
+    "imagem": "file-wellington.jpg",
+    "ingredientes": [
+      {
+        "nome": "Filé mignon",
+        "quantidade": 500,
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Massa folhada pronta",
+        "quantidade": 1,
+        "unidade": "rolo",
+        "preposicao": ""
+      },
+      {
+        "nome": "Cogumelos frescos",
+        "quantidade": 200,
+        "unidade": "g",
+        "preposicao": ""
+      },
+      {
+        "nome": "Cebola",
+        "quantidade": 1,
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Alho",
+        "quantidade": 2,
+        "unidade": "dentes",
+        "preposicao": ""
+      },
+      {
+        "nome": "Manteiga",
+        "quantidade": 2,
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Azeite",
+        "quantidade": 1,
+        "unidade": "colher de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Ervas frescas (tomilho, alecrim, salsinha)",
+        "quantidade": "a gosto",
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Ovo",
+        "quantidade": 1,
+        "unidade": "",
+        "preposicao": ""
+      }
+    ],
+    "porcao": {
+      "tipo": "porções",
+      "quantidade": 4
     },
-    {
-      "nome": "Massa folhada pronta",
-      "quantidade": 1,
-      "unidade": "rolo",
-      "preposicao": ""
-    },
-    {
-      "nome": "Cogumelos frescos",
-      "quantidade": 200,
-      "unidade": "g",
-      "preposicao": ""
-    },
-    {
-      "nome": "Cebola",
-      "quantidade": 1,
-      "unidade": "",
-      "preposicao": ""
-    },
-    {
-      "nome": "Alho",
-      "quantidade": 2,
-      "unidade": "dentes",
-      "preposicao": ""
-    },
-    {
-      "nome": "Manteiga",
-      "quantidade": 2,
-      "unidade": "colheres de sopa",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Azeite",
-      "quantidade": 1,
-      "unidade": "colher de sopa",
-      "preposicao": "de"
-    },
-    {
-      "nome": "Sal e pimenta",
-      "quantidade": "a gosto",
-      "unidade": "",
-      "preposicao": ""
-    },
-    {
-      "nome": "Ervas frescas (tomilho, alecrim, salsinha)",
-      "quantidade": "a gosto",
-      "unidade": "",
-      "preposicao": ""
-    },
-    {
-      "nome": "Ovo",
-      "quantidade": 1,
-      "unidade": "",
-      "preposicao": ""
-    }
-  ],
-  "porcao": {
-    "tipo": "porções",
-    "quantidade": 4
-  },
-  "preparo": [
-    "Tempere o filé mignon com sal, pimenta e as ervas frescas a gosto.",
-    "Em uma frigideira, aqueça o azeite e uma colher de sopa de manteiga.",
-    "Sele o filé mignon em todos os lados, deixando-o dourado por fora, mas ainda cru por dentro. Retire da frigideira e reserve.",
-    "No mesmo azeite e manteiga, refogue a cebola e o alho picados até ficarem macios.",
-    "Adicione os cogumelos picados e cozinhe até que a maior parte da água dos cogumelos evapore.",
-    "Tempere com sal e pimenta a gosto e adicione mais ervas frescas se desejar. Retire do fogo.",
-    "Estenda a massa folhada em uma superfície limpa.",
-    "Espalhe os cogumelos refogados sobre a massa.",
-    "Coloque o filé mignon selado sobre os cogumelos.",
-    "Enrole a massa folhada sobre o filé mignon, garantindo que esteja bem vedada.",
-    "Bata o ovo e pincele a massa folhada para dar um acabamento dourado.",
-    "Asse em forno preaquecido a 200°C por cerca de 25-30 minutos, ou até que a massa esteja dourada e o filé cozido ao ponto desejado.",
-    "Retire do forno e deixe descansar por alguns minutos antes de fatiar.",
-    "Sirva o Filé Wellington fatiado acompanhado de molho de sua preferência e guarnições."
-  ],
-  "tempo": 60,
-  "dica": "Sirva o Filé Wellington com um molho de vinho tinto reduzido ou molho madeira para um toque sofisticado.",
-  "harmonizacao": [
-    {
-      "categoria": "Vinho Tinto",
-      "subcategoria": "Merlot",
-      "descricao": "Um vinho tinto Merlot com notas suaves e frutadas é uma excelente escolha para harmonizar."
-    },
-    {
-      "categoria": "Vinho Branco",
-      "subcategoria": "Chardonnay",
-      "descricao": "Um vinho branco Chardonnay encorpado também pode acompanhar bem esse prato."
-    }
-  ]
-}
-
+    "preparo": [
+      "Tempere o filé mignon com sal, pimenta e as ervas frescas a gosto.",
+      "Em uma frigideira, aqueça o azeite e uma colher de sopa de manteiga.",
+      "Sele o filé mignon em todos os lados, deixando-o dourado por fora, mas ainda cru por dentro. Retire da frigideira e reserve.",
+      "No mesmo azeite e manteiga, refogue a cebola e o alho picados até ficarem macios.",
+      "Adicione os cogumelos picados e cozinhe até que a maior parte da água dos cogumelos evapore.",
+      "Tempere com sal e pimenta a gosto e adicione mais ervas frescas se desejar. Retire do fogo.",
+      "Estenda a massa folhada em uma superfície limpa.",
+      "Espalhe os cogumelos refogados sobre a massa.",
+      "Coloque o filé mignon selado sobre os cogumelos.",
+      "Enrole a massa folhada sobre o filé mignon, garantindo que esteja bem vedada.",
+      "Bata o ovo e pincele a massa folhada para dar um acabamento dourado.",
+      "Asse em forno preaquecido a 200°C por cerca de 25-30 minutos, ou até que a massa esteja dourada e o filé cozido ao ponto desejado.",
+      "Retire do forno e deixe descansar por alguns minutos antes de fatiar.",
+      "Sirva o Filé Wellington fatiado acompanhado de molho de sua preferência e guarnições."
+    ],
+    "tempo": 60,
+    "dica": "Sirva o Filé Wellington com um molho de vinho tinto reduzido ou molho madeira para um toque sofisticado.",
+    "harmonizacao": [
+      {
+        "categoria": "Vinho Tinto",
+        "subcategoria": "Merlot",
+        "descricao": "Um vinho tinto Merlot com notas suaves e frutadas é uma excelente escolha para harmonizar."
+      },
+      {
+        "categoria": "Vinho Branco",
+        "subcategoria": "Chardonnay",
+        "descricao": "Um vinho branco Chardonnay encorpado também pode acompanhar bem esse prato."
+      }
+    ]
+  }
 ]
