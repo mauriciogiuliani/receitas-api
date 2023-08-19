@@ -11,43 +11,43 @@
     "ingredientes": [
       {
         "nome": "Espaguete",
-        "quantidade": "300",
+        "quantidade": 300,
         "unidade": "g",
         "preposicao": "de"
       },
       {
         "nome": "Bacon ou Pancetta",
-        "quantidade": "150",
+        "quantidade": 150,
         "unidade": "g",
         "preposicao": "de"
       },
       {
         "nome": "Ovos",
-        "quantidade": "3",
+        "quantidade": 3,
         "unidade": "",
         "preposicao": "de"
       },
       {
         "nome": "Queijo Pecorino Romano ralado",
-        "quantidade": "100",
+        "quantidade": 100,
         "unidade": "g",
         "preposicao": "de"
       },
       {
         "nome": "Pimenta-do-reino",
-        "quantidade": "1",
+        "quantidade": 1,
         "unidade": "pitada",
         "preposicao": "de"
       },
       {
         "nome": "Sal",
-        "quantidade": "1",
+        "quantidade": 1,
         "unidade": "pitada",
         "preposicao": "de"
       },
       {
         "nome": "Azeite de oliva",
-        "quantidade": "1",
+        "quantidade": 1,
         "unidade": "fio",
         "preposicao": "de"
       },
@@ -58,6 +58,10 @@
         "preposicao": "de"
       }
     ],
+    "porcao": {
+      "tipo": "porção",
+      "quantidade": 4
+    },
     "preparo": [
       "Leve uma panela grande de água para ferver. Adicione uma pitada generosa de sal à água fervente.",
       "Enquanto a água está fervendo, aqueça um pouco de azeite de oliva em uma frigideira grande em fogo médio. Adicione os cubos de bacon ou pancetta e frite até que estejam dourados e crocantes. Retire a frigideira do fogo e reserve.",
@@ -71,92 +75,115 @@
     "tempo": 30,
     "dica": "Sirva acompanhado de um bom vinho tinto italiano.",
     "harmonizacao": [
-      "Vinho Tinto Leve: Escolha um vinho tinto mais leve, como um Chianti ou um Pinot Noir. Eles complementam bem os sabores da Carbonara.",
-      "Vinho Branco Seco: Opte por um vinho branco seco e leve, como um Pinot Grigio ou um Sauvignon Blanc. A acidez equilibra a riqueza da Carbonara.",
-      "Vinho Rosé: Experimente um vinho rosé seco e frutado, como um Rosé Provençal, para contrastar com a riqueza do prato.",
-      "Vinho Espumante: Um vinho espumante brut, como um Prosecco ou um Cava, pode trazer leveza e efervescência à refeição."
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Tinto Leve",
+        "descricao": "Escolha um vinho tinto mais leve, como um Chianti ou um Pinot Noir. Eles complementam bem os sabores da Carbonara."
+      },
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Branco Seco",
+        "descricao": "Opte por um vinho branco seco e leve, como um Pinot Grigio ou um Sauvignon Blanc. A acidez equilibra a riqueza da Carbonara."
+      },
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Rosé",
+        "descricao": "Experimente um vinho rosé seco e frutado, como um Rosé Provençal, para contrastar com a riqueza do prato."
+      },
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Espumante",
+        "descricao": "Um vinho espumante brut, como um Prosecco ou um Cava, pode trazer leveza e efervescência à refeição."
+      }
     ]
   },
   {
     "id": "risoto-de-cogumelos",
     "titulo": "Risoto de Cogumelos",
     "descricao": "Um delicioso risoto cremoso com cogumelos frescos e queijo parmesão.",
-    "categorias": ["Arroz", "Prato Principal"],
+    "categorias": [
+      "Arroz",
+      "Prato Principal"
+    ],
     "imagem": "risoto-de-cogumelos.jpg",
     "ingredientes": [
       {
         "nome": "Arroz arbóreo",
-        "quantidade": "300",
+        "quantidade": 300,
         "unidade": "g",
         "preposicao": "de"
       },
       {
         "nome": "Cogumelos frescos (ex: champignon, shiitake)",
-        "quantidade": "200",
+        "quantidade": 200,
         "unidade": "g",
         "preposicao": "de"
       },
       {
         "nome": "Cebola",
-        "quantidade": "1",
+        "quantidade": 1,
         "unidade": "",
         "preposicao": "de"
       },
       {
         "nome": "Alho",
-        "quantidade": "2",
+        "quantidade": 2,
         "unidade": "dentes",
         "preposicao": "de"
       },
       {
         "nome": "Caldo de legumes",
-        "quantidade": "1",
+        "quantidade": 1,
         "unidade": "litro",
         "preposicao": "de"
       },
       {
         "nome": "Queijo parmesão ralado",
-        "quantidade": "100",
+        "quantidade": 100,
         "unidade": "g",
         "preposicao": "de"
       },
       {
         "nome": "Vinho branco seco",
-        "quantidade": "150",
+        "quantidade": 150,
         "unidade": "ml",
         "preposicao": "de"
       },
       {
         "nome": "Manteiga",
-        "quantidade": "2",
+        "quantidade": 2,
         "unidade": "colheres de sopa",
         "preposicao": "de"
       },
       {
         "nome": "Azeite de oliva",
-        "quantidade": "2",
+        "quantidade": 2,
         "unidade": "colheres de sopa",
         "preposicao": "de"
       },
       {
         "nome": "Sal",
-        "quantidade": "1",
+        "quantidade": 1,
         "unidade": "pitada",
         "preposicao": "de"
       },
       {
         "nome": "Pimenta-do-reino",
-        "quantidade": "1",
+        "quantidade": 1,
         "unidade": "pitada",
         "preposicao": "de"
       },
       {
         "nome": "Salsinha fresca picada",
-        "quantidade": "2",
+        "quantidade": 2,
         "unidade": "colheres de sopa",
         "preposicao": "de"
       }
     ],
+    "porcao": {
+      "tipo": "porção",
+      "quantidade": 4
+    },
     "preparo": [
       "Em uma panela grande, aqueça o caldo de legumes e mantenha-o aquecido em fogo baixo.",
       "Em outra panela, aqueça o azeite de oliva e uma colher de manteiga.",
@@ -174,10 +201,149 @@
     "tempo": 40,
     "dica": "Finalize com um fio de azeite e salsinha picada antes de servir.",
     "harmonizacao": [
-      "Vinho Branco Encorpado: Escolha um vinho branco encorpado, como um Chardonnay com passagem por barrica.",
-      "Vinho Tinto Leve: Opte por um vinho tinto leve, como um Pinot Noir, para contrastar com a cremosidade do risoto.",
-      "Vinho Rosé: Um vinho rosé frutado e fresco pode ser uma opção refrescante para acompanhar o prato.",
-      "Vinho Espumante: Experimente um vinho espumante brut, como um Brut Nature, para trazer efervescência e harmonizar com a textura cremosa do risoto."
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Branco Encorpado",
+        "descricao": "Escolha um vinho branco encorpado, como um Chardonnay com passagem por barrica."
+      },
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Tinto Leve",
+        "descricao": "Opte por um vinho tinto leve, como um Pinot Noir, para contrastar com a cremosidade do risoto."
+      },
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Rosé",
+        "descricao": "Um vinho rosé frutado e fresco pode ser uma opção refrescante para acompanhar o prato."
+      },
+      {
+        "categoria": "Vinho",
+        "subcategoria": "Espumante",
+        "descricao": "Experimente um vinho espumante brut, como um Brut Nature, para trazer efervescência e harmonizar com a textura cremosa do risoto."
+      }
+    ]
+  },
+  {
+    "id": "strogonoff-de-carne",
+    "titulo": "Strogonoff de Carne",
+    "descricao": "Um prato clássico e delicioso com carne macia, creme de leite e cogumelos.",
+    "categorias": [
+      "Carnes",
+      "Prato Principal"
+    ],
+    "imagem": "strogonoff-de-carne.jpg",
+    "ingredientes": [
+      {
+        "nome": "Filé-mignon, coxão mole ou outra carne macia",
+        "quantidade": 500,
+        "unidade": "g",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Cebola média",
+        "quantidade": 1,
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Dentes de alho",
+        "quantidade": 2,
+        "unidade": "",
+        "preposicao": ""
+      },
+      {
+        "nome": "Champignon fresco",
+        "quantidade": 200,
+        "unidade": "g",
+        "preposicao": ""
+      },
+      {
+        "nome": "Manteiga",
+        "quantidade": 2,
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Óleo vegetal",
+        "quantidade": 1,
+        "unidade": "colher de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Ketchup",
+        "quantidade": 1,
+        "unidade": "colher de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Mostarda",
+        "quantidade": 1,
+        "unidade": "colher de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Conhaque",
+        "quantidade": 1,
+        "unidade": "colher de sopa",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Creme de leite",
+        "quantidade": 1,
+        "unidade": "lata",
+        "preposicao": ""
+      },
+      {
+        "nome": "Sal",
+        "quantidade": 1,
+        "unidade": "pitada",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Pimenta-do-reino",
+        "quantidade": 1,
+        "unidade": "pitada",
+        "preposicao": "de"
+      },
+      {
+        "nome": "Salsinha fresca picada",
+        "quantidade": 2,
+        "unidade": "colheres de sopa",
+        "preposicao": "de"
+      }
+    ],
+    "porcao": {
+      "tipo": "porção",
+      "quantidade": 4
+    },
+    "preparo": [
+      "Em uma frigideira grande, aqueça a manteiga e o óleo em fogo médio.",
+      "Adicione a cebola picada e refogue até ficar transparente.",
+      "Acrescente o alho picado e refogue por mais alguns segundos, até perfumar.",
+      "Adicione as tiras de carne à frigideira e cozinhe até que estejam douradas por fora, mas ainda rosadas por dentro. Tempere com sal e pimenta-do-reino a gosto.",
+      "Se estiver usando conhaque, incline a frigideira um pouco para que o conhaque entre em contato com a chama e flambe a carne até que o fogo se apague. Tenha cuidado ao fazer isso.",
+      "Adicione os cogumelos fatiados à frigideira e cozinhe por alguns minutos até que estejam macios.",
+      "Acrescente o ketchup e a mostarda à frigideira e misture bem com a carne e os cogumelos.",
+      "Reduza o fogo para médio-baixo e despeje o creme de leite na frigideira. Mexa para incorporar o creme de leite aos outros ingredientes.",
+      "Cozinhe por mais alguns minutos, mexendo ocasionalmente, até que o molho esteja aquecido e os sabores estejam bem misturados. Não deixe ferver para evitar talhar o creme de leite.",
+      "Prove o strogonoff e ajuste o tempero com sal e pimenta, se necessário.",
+      "Retire a frigideira do fogo e transfira o strogonoff para um prato de servir.",
+      "Polvilhe salsinha picada por cima do strogonoff antes de servir.",
+      "Sirva o strogonoff quente acompanhado de arroz branco e batata palha, se desejar."
+    ],
+    "tempo": 30,
+    "dica": "Sirva com arroz branco e batata palha para uma refeição completa.",
+    "harmonizacao": [
+      {
+        "categoria": "Vinho Tinto",
+        "subcategoria": "Encorpado",
+        "descricao": "Um vinho tinto encorpado, como um Cabernet Sauvignon, harmoniza bem com a riqueza do prato."
+      },
+      {
+        "categoria": "Vinho Branco",
+        "subcategoria": "Chardonnay",
+        "descricao": "Se preferir vinho branco, um Chardonnay com boa estrutura é uma escolha adequada."
+      }
     ]
   }
 ]
