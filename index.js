@@ -2,13 +2,17 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+require('dotenv').config();
+
 const cors = require('cors');
 app.use(cors());
 
 // receitas is an array that should be imported from receitas.json file
 // const receitas = require('./receitas.json');
 
-const receitas = require('./receitas.json').map(receita => ({
+
+// const receitasPath = process.
+const receitas = require(process.env.RECEITAS_JSON).map(receita => ({
   ...receita
 }));
 
