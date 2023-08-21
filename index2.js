@@ -7,8 +7,7 @@ const port = 3000;
 const cors = require('cors');
 app.use(cors);
 
-process.env.AWS_ACCESS_KEY_ID = 'AKIA2DIFYKJDZGQBI46X';
-process.env.AWS_SECRET_ACCESS_KEY = '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';
+
 
 app.get('/health', (req, res) => {
   res.send('Server is up and running');
