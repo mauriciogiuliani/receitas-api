@@ -1,18 +1,16 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+const fs = require('fs');
 
 require('dotenv').config();
 
 const cors = require('cors');
 app.use(cors());
 
-// receitas is an array that should be imported from receitas.json file
-// const receitas = require('./receitas.json');
-
 
 const arguments = process.argv.slice(2);
-if(arguments[0]) {
+if (arguments[0]) {
   process.env.RECEITAS_JSON = arguments[0];
 }
 const receitas = require(process.env.RECEITAS_JSON).map(receita => ({
@@ -63,6 +61,7 @@ const schema = buildSchema(`
     receitaByNome(nome: String!): Receita
     receitas: [Receita]
   }
+
 `);
 
 const resolvers = {
@@ -77,7 +76,7 @@ const resolvers = {
   receitasByNome({ nome }) {
     console.log("Query for receitasByNome called");
     return receitas.find(item => item.nome === nome);
-  }
+  },
 };
 
 app.use(
@@ -89,5 +88,27 @@ app.use(
   })
 
 );
+
+
+/* REST */
+
+// Parse JSON bodies (as sent by API clients)
+app.use(express.json());
+app.post('/receitas', (req, res) => {
+  receitas.push(req.body);
+
+  const updatedJson = JSON.stringify(receitas, null, 2);
+
+  // Write the updated data back to the file
+  fs.writeFile(process.env.RECEITAS_JSON, updatedJson, 'utf8', (err) => {
+    if (err) {
+      console.error("Error writing the file:", err);
+      return;
+    }
+    console.log("Object added and file saved successfully.");
+  });
+
+  res.send('POST receitas');
+});
 
 app.listen(3000);
