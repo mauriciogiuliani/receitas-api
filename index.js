@@ -11,7 +11,10 @@ app.use(cors());
 // const receitas = require('./receitas.json');
 
 
-// const receitasPath = process.
+const arguments = process.argv.slice(2);
+if(arguments[0]) {
+  process.env.RECEITAS_JSON = arguments[0];
+}
 const receitas = require(process.env.RECEITAS_JSON).map(receita => ({
   ...receita
 }));
