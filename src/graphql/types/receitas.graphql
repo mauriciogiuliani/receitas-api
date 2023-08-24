@@ -1,5 +1,5 @@
 type Receita {
-    id: ID
+    id: String
     titulo: String
     descricao: String
     categorias: [String]
@@ -31,4 +31,5 @@ type Receita {
 
   type Query {
       receitas: [Receita]
+      receita(id: String!): Receita
   }

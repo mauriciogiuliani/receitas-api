@@ -1,0 +1,10 @@
+  type Blog {
+    id: ID!
+    titulo: String!
+    descricao: String!
+    conteudo: String!
+  }
+
+  type Query {
+      receitas: [Receita]
+  }

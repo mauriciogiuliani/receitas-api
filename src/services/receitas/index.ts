@@ -20,6 +20,10 @@ class ReceitasService {
   receitas() {
     return this.data;
   }
+
+  receita(args: any) {    
+    return this.data.find((receita: any) => receita.id === args.id);
+  }
 }
 
 export default new ReceitasService();
