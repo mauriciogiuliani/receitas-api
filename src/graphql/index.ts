@@ -1,4 +1,4 @@
-import { makeExecutableSchema } from "graphql-tools";
+import { makeExecutableSchema } from "@graphql-tools/schema";
 import { createHandler } from "graphql-http/lib/use/express";
 import { typeDefs } from "./schema";
 import { resolvers } from "./resolvers";
