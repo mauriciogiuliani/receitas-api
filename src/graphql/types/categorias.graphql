@@ -1,0 +1,7 @@
+type Categoria {
+  nome: ID!
+}
+
+  type Query {
+      categorias: [String]
+  }

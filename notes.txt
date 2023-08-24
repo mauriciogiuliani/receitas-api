@@ -1,2 +1,0 @@
-## Kill node process
-kill $(ps -ef | grep '[n]ode' | awk '{print $2}')

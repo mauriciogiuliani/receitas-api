@@ -1,0 +1,34 @@
+type Receita {
+    id: ID
+    titulo: String
+    descricao: String
+    categorias: [String]
+    ingredientes: [Ingrediente]
+    preparo: [String]
+    dica: String
+    harmonizacao: [Harmonizacao]
+    tempo: Int
+    porcao: Porcao
+  }
+
+  type Ingrediente {
+    nome: String
+    quantidade: Int
+    unidade: String
+    preposicao: String
+  }
+
+  type Harmonizacao {
+    categoria: String
+    subcategoria: String
+    descricao: String
+  }
+
+  type Porcao {
+    tipo: String 
+    quantidade: Int
+  }
+
+  type Query {
+      receitas: [Receita]
+  }
