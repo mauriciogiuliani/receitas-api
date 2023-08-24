@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:server": "npx tsc && node dist/index.js /home/ubuntu/json_db/'",
+    "start:server": "npx tsc && node dist/index.js /home/ubuntu/json_db/",
     "start": "npx nodemon --exec ts-node src/index.ts",
     "start:dev": "nodemon --watch 'src/**/*.ts' --exec 'npx ts-node' dist/index.js",
     "start:dev1": "concurrently \"npx tsc --watch\" \"nodemon -q src/index.js\"",
