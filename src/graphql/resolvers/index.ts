@@ -5,6 +5,7 @@ export const resolvers = {
   Query: {
     receitas: () => ReceitasService.receitas(),
     receita: (parent: any, args: any) =>  ReceitasService.receita(args),
+    destaques: () => ReceitasService.destaques(),
     categorias: () => CategoriasService.categorias(),
   },
 };
