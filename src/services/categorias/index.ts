@@ -1,24 +1,21 @@
 const { readFileSync } = require("fs");
 
 class CategoriasService {
-  data: any;
+  dataPath: string;
 
   constructor() {
     const args = process.argv.slice(2);
-    let dataPath;
-
     if (args[0]) {
-      dataPath = args[0] + "categorias.json";
+      this.dataPath = args[0];
     } else {
-      dataPath = "./data/categorias.json";
+      this.dataPath = "./data/";
     }
 
-    this.data = readFileSync(dataPath, "utf8");
-    this.data = JSON.parse(this.data);
   }
 
   categorias() {
-    return this.data;
+    return JSON.parse(readFileSync(this.dataPath + "/categorias.json", "utf8"));
+    
   }
 }
 
